@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #e2bcbc;
+}
+.mergin {
+  width: 1190px;
+  margin: 0 auto;
+}
+.heand {
+  height: 36px;
+  background-color: aliceblue;
+}
+.heand .mergin {
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.heand .mergin .left {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  line-height: 36px;
+  font-size: 10px;
+}
+.heand .mergin .left p,
+.heand .mergin .left i,
+.heand .mergin .left span,
+.heand .mergin .left li {
+  padding: 0 5px;
+}
+.heand .mergin .left span {
+  color: red;
+}
+.heand .mergin .left li:hover {
+  color: red;
+}
+.heand .mergin .right {
+  float: right;
+  width: 40%;
+  display: flex;
+  text-align: center;
+  line-height: 36px;
+  font-size: 10px;
+}
+.heand .mergin .right li {
+  padding: 0 7px;
+}
+.heand .mergin .right li:hover {
+  color: red;
+}
+.top {
+  height: 88px;
+  display: flex;
+}
+.top .left {
+  width: 190px;
+  height: 80px;
+  padding: 15px 15px;
+}
+.top .left img {
+  width: 142px;
+  height: 58px;
+}
+.top .cent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 738px;
+  height: 42px;
+  border: 2px solid #FF5000;
+  line-height: 42px;
+  margin-top: 22px;
+  border-radius: 8%;
+  padding: 0 8px;
+  font-size: 15px;
+  background-color: aliceblue;
+}
+.top .cent span {
+  color: #524c4c;
+  padding-right: 5px;
+}
+.top .cent i {
+  height: 35px;
+  padding-right: 5px;
+  border-right: 1px solid #494544;
+}
+.top .cent input {
+  flex: 1;
+  height: 40px;
+  border: 0px;
+  padding-left: 8px;
+}
+.top .cent button {
+  width: 75px;
+  height: 38px;
+  background-color: #FF5000;
+  color: #fff;
+  border-radius: 36%;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.top .right {
+  width: 76px;
+  height: 90px;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 10px 35px;
+}
+.top .right span {
+  color: #FF5000;
+  font-size: 15px;
+}
+.top .right img {
+  width: 62px;
+  height: 62px;
+}
